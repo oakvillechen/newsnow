@@ -17,6 +17,12 @@ export async function rss2json(url: string): Promise<RSSInfo | undefined> {
   let channel = result.rss && result.rss.channel ? result.rss.channel : result.feed
   if (Array.isArray(channel)) channel = channel[0]
 
+  // Handle cases where the feed structure is unexpected
+  if (!channel) {
+    console.warn(`RSS feed structure not recognized for URL`)
+    return undefined
+  }
+
   const rss = {
     title: channel.title ?? "",
     description: channel.description ?? "",

@@ -563,5 +563,61 @@
     "color": "green",
     "interval": 1800000,
     "title": "热播榜"
+  },
+  "cbc": {
+    "name": "CBC News",
+    "type": "realtime",
+    "column": "canada",
+    "home": "https://www.cbc.ca",
+    "color": "red",
+    "interval": 1800000
+  },
+  "ctv": {
+    "name": "CTV News",
+    "type": "realtime",
+    "column": "canada",
+    "home": "https://www.ctvnews.ca",
+    "color": "blue",
+    "interval": 1800000
+  },
+  "globalnews": {
+    "name": "Global News",
+    "type": "realtime",
+    "column": "canada",
+    "home": "https://globalnews.ca",
+    "color": "amber",
+    "interval": 1800000
+  },
+  "theglobeandmail": {
+    "name": "Globe and Mail",
+    "type": "realtime",
+    "column": "canada",
+    "home": "https://www.theglobeandmail.com",
+    "color": "slate",
+    "interval": 1800000
+  },
+  "thestar": {
+    "name": "Toronto Star",
+    "type": "realtime",
+    "column": "canada",
+    "home": "https://www.thestar.com",
+    "color": "blue",
+    "interval": 1800000
+  },
+  "nationalpost": {
+    "name": "National Post",
+    "type": "realtime",
+    "column": "canada",
+    "home": "https://nationalpost.com",
+    "color": "red",
+    "interval": 1800000
+  },
+  "cp24": {
+    "name": "CP24",
+    "type": "realtime",
+    "column": "canada",
+    "home": "https://www.cp24.com",
+    "color": "red",
+    "interval": 300000
   }
 }

@@ -483,6 +483,64 @@ export const originSources = {
       },
     },
   },
+
+  // Canadian News Sources
+  "cbc": {
+    name: "CBC News",
+    color: "red",
+    home: "https://www.cbc.ca",
+    column: "canada",
+    type: "realtime",
+    interval: Time.Common,
+  },
+  "ctv": {
+    name: "CTV News",
+    color: "blue",
+    home: "https://www.ctvnews.ca",
+    column: "canada",
+    type: "realtime",
+    interval: Time.Common,
+  },
+  "globalnews": {
+    name: "Global News",
+    color: "amber",
+    home: "https://globalnews.ca",
+    column: "canada",
+    type: "realtime",
+    interval: Time.Common,
+  },
+  "theglobeandmail": {
+    name: "Globe and Mail",
+    color: "slate",
+    home: "https://www.theglobeandmail.com",
+    column: "canada",
+    type: "realtime",
+    interval: Time.Common,
+  },
+  "thestar": {
+    name: "Toronto Star",
+    color: "blue",
+    home: "https://www.thestar.com",
+    column: "canada",
+    type: "realtime",
+    interval: Time.Common,
+  },
+  "nationalpost": {
+    name: "National Post",
+    color: "red",
+    home: "https://nationalpost.com",
+    column: "canada",
+    type: "realtime",
+    interval: Time.Common,
+  },
+  "cp24": {
+    name: "CP24",
+    color: "red",
+    home: "https://www.cp24.com",
+    column: "canada",
+    type: "realtime",
+    interval: Time.Fast,
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
